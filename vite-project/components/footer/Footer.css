@@ -1,0 +1,27 @@
+footer {
+    background-color: black;
+    padding-inline: 10rem;
+    padding-block: 15rem;
+}
+
+.link-section {
+    display: flex;
+    gap: 2rem;
+}
+
+.icons {
+    display:flex;
+    gap: 1rem;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icon-col {
+    width: 50%;
+    min-width: 40%;
+}

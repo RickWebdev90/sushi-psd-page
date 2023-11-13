@@ -1,0 +1,11 @@
+.column {
+    color: white;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+    line-height: 1.5rem;
+    padding-left: 0;
+    margin-left: 0;
+}

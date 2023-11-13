@@ -1,5 +1,6 @@
 import './App.css'
-import {Section3} from './components/psdNora.jsx'
+import Section3 from './components/psdNora.jsx'
+import SectionNora from './components/psdNora2.jsx';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 
@@ -7,7 +8,11 @@ function App() {
     return (
         <Router>
           <Routes>
-            <Route path="/Homes" element={< Section3 />} />
+            <Route path="/" element=
+            {<>
+            < Section3/> 
+            < SectionNora />
+            </>} />
           </Routes>
         </Router>
       );

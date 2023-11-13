@@ -2,20 +2,22 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Footer } from "/components/footer/Footer";
 
 import { Subscribe } from "/components/Subscribe";
-
+import SectionRick from './components/mainarea-2'
 
 function App() {
     return (
-        <>
-        <Footer />
-        {/* <Router>
+        <Router>
           <Routes>
-            <Route path="/Homes" element={< Footer />} />
+            <Route path="/" element=
+            {<>
+            < Section3/> 
+            < SectionNora />
+            < SectionRick />
+            </>} />
           </Routes>
-        </Router> */}
-        </>
+        </Router>
       );
-
+    
 }
 
 export default App
